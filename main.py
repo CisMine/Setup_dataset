@@ -43,5 +43,5 @@ if __name__ == "__main__":
         Resize((224, 224)),
         ToTensor(),
     ])
-    dataset = AnimalDataset(root=" ", train=True, transform=transform)
+    dataset = AnimalDataset(root=" ", train=True, transform=transform) # add your root path
 
