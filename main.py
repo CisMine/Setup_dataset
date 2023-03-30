@@ -40,7 +40,7 @@ class AnimalDataset(Dataset):
 
 if __name__ == "__main__":
     transform = Compose([
-        Resize((224, 224)),
+        Resize((224, 224)), # you can change your image size
         ToTensor(),
     ])
     dataset = AnimalDataset(root=" ", train=True, transform=transform) # add your root path
