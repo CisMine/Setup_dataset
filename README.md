@@ -8,11 +8,11 @@ Yes, it is true that there are many frameworks available for setting up datasets
 
 ## How to use my code
 With my code, you can:
-*Use your dataset in your path folder
-*You can customize your preprocessing steps based on the specific needs of your task
+* Use your dataset in your path folder
+* You can customize your preprocessing steps based on the specific needs of your task
 
 ##Requirements:
-*Python
-*Torch
-*PIL
-Torchvision
+* Python
+* Torch
+* PIL
+* Torchvision
