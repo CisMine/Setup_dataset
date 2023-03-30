@@ -5,7 +5,7 @@ from torchvision.transforms import Compose, ToTensor, Resize
 
 
 
-class AnimalDataset(Dataset):
+class Your_Dataset(Dataset):
     def __init__(self, root, train=True, transform=None):
         self.image_paths = []
         self.labels = []
@@ -43,5 +43,5 @@ if __name__ == "__main__":
         Resize((224, 224)), # you can change your image size
         ToTensor(),
     ])
-    dataset = AnimalDataset(root=" ", train=True, transform=transform) # add your root path
+    dataset = Your_Dataset(root=" ", train=True, transform=transform) # add your root path
 
