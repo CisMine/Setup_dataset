@@ -17,9 +17,4 @@ With my code, you can:
 * PIL
 * Torchvision
 
-## Explain Code
-first you import these:
-`import os
-from torch.utils.data import Dataset
-from PIL import Image
-from torchvision.transforms import Compose, ToTensor, Resize`
+
