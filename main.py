@@ -43,7 +43,7 @@ if __name__ == "__main__":
         Resize((224, 224)),
         ToTensor(),
     ])
-    dataset = AnimalDataset(root="../data", train=True, transform=transform)
+    dataset = AnimalDataset(root="../data1", train=True, transform=transform)
     index = 4440
     image, label = dataset.__getitem__(index)
     print(image.shape)
