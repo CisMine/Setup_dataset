@@ -17,4 +17,5 @@ With my code, you can:
 * PIL
 * Torchvision
 
+i have explain more clearly in my [medium](https://medium.com/@giahuy04/imagefolder-is-enough-to-set-up-your-data-3d9689498bca)
 
