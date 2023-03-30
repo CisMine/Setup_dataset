@@ -9,10 +9,10 @@ class AnimalDataset(Dataset):
     def __init__(self, root, train=True, transform=None):
         self.image_paths = []
         self.labels = []
-        self.categories = ["butterfly", "cat", "chicken", "cow", "dog", "elephant", "horse", "sheep", "spider","squirrel"]
+        self.categories = [] # add your categories here
         self.transform = transform
 
-        data_path = os.path.join(root, "animals")
+        data_path = os.path.join(root, " ") # add your path folder
 
         if train:
             data_path = os.path.join(data_path, "train")
@@ -43,8 +43,5 @@ if __name__ == "__main__":
         Resize((224, 224)),
         ToTensor(),
     ])
-    dataset = AnimalDataset(root="../data1", train=True, transform=transform)
-    index = 4440
-    image, label = dataset.__getitem__(index)
-    print(image.shape)
-    print(label)
+    dataset = AnimalDataset(root=" ", train=True, transform=transform)
+
